@@ -2,7 +2,7 @@ const express = require("express");
 const { MongoClient } = require("mongodb");
 const {
   mongodb: { host, port, name, authenticate }
-} = require("../database/config");
+} = require("../config");
 
 const router = express.Router();
 
